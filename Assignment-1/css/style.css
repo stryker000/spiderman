@@ -1,0 +1,67 @@
+:root {
+    --brand-primary: #0d6efd;
+    --brand-secondary: #6c757d;
+    --bg-light: #f8f9fa;
+  }
+  
+  body {
+    background-color: var(--bg-light);
+    font-family: "Segoe UI", Tahoma, sans-serif;
+  }
+  
+  h1, h2, h3 {
+    color: var(--brand-primary);
+    margin-bottom: 1rem;
+  }
+  
+  .navbar {
+    background-color: var(--brand-primary) !important;
+  }
+  
+  .navbar-brand {
+    font-weight: 600;
+    color: #fff !important;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  .nav-link.active,
+  .nav-link:hover {
+    color: var(--bg-light) !important;
+  }
+  
+  .nav-pills .btn-pill {
+    border-radius: 50px;
+    margin: 0 0.25rem;
+    background-color: var(--brand-secondary);
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-pills .btn-pill.active {
+    background-color: var(--brand-primary);
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 900px;
+  }
+  
+  .content-container {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  ul {
+    padding-left: 1.25rem;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  

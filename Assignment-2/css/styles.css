@@ -1,0 +1,22 @@
+
+
+   body {
+    background: #f8f9fa;
+  }
+  
+  .card-header h5 {
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+  }
+  
+  #intResult {
+    font-weight: 600;
+  }
+  
+  @media (min-width: 992px) {
+    /* wider cards for desktop */
+    .card {
+      border-radius: 0.75rem;
+    }
+  }
+  

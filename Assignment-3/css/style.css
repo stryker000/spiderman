@@ -1,0 +1,15 @@
+/* ──────────────────────────────────────
+   Tiny overrides to give a fresh vibe
+   ────────────────────────────────────── */
+   body {
+    background: #f7f9fb;
+  }
+  
+  .card {
+    border-radius: 0.75rem;
+  }
+  
+  table.table-bordered td {
+    padding: 0.35rem 0.75rem;
+  }
+  

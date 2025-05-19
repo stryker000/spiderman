@@ -1,0 +1,9 @@
+/* Override Bootstrap only where necessary */
+body {
+    background: #f8f9fa;
+  }
+  .card img {
+    height: 250px;
+    object-fit: cover;
+  }
+  

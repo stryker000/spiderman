@@ -1,0 +1,14 @@
+/* client/src/styles.css */
+
+/* Ensures the <img> inside .ratio-1x1 fills fully */
+.product-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Highlight active nav link */
+  .nav-link.active {
+    text-decoration: underline;
+  }
+  
