@@ -1,0 +1,4 @@
+INSERT INTO Consumer (name, address, contact) VALUES
+('Ravi Kumar', '123 Main Street', '9876543210'),
+('Priya Sharma', '456 Rose Avenue', '9123456789'),
+('Amit Singh', '789 Lake Road', '9988776655');
