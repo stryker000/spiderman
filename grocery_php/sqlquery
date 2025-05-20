@@ -1,0 +1,15 @@
+CREATE TABLE Consumer (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(100) NOT NULL UNIQUE,
+  password VARCHAR(255) NOT NULL,
+  name VARCHAR(100),
+  address VARCHAR(255)
+);
+
+CREATE TABLE Items (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  item_name VARCHAR(100) NOT NULL,
+  price DECIMAL(8,2) NOT NULL,
+  description VARCHAR(255),
+  image VARCHAR(255)
+);
